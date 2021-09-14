@@ -1,6 +1,5 @@
 # Lab2
 ---
-title: "Lab2_assignment"
 author: "Myron Bañez"
 date: "9/13/2021"
 ---
