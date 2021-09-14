@@ -1,5 +1,4 @@
-# Lab2
-title: "Lab2_assignment"
+# Lab 2
 author: "Myron Bañez"
 date: "9/13/2021"
 ---
