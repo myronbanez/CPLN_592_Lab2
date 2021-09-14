@@ -63,5 +63,18 @@ st_crs(Lab_acsTractsPHL.2016.sf_WGS84)
     ##     ID["EPSG",4326]]
 
 ## Plot with {ggplot2}
+ggplot()+
+  geom_sf(data = Lab_acsTractsPHL.2016.sf, aes(fill = pctnoncitizenTransit.2016),
+          color = "transparent")+
+  geom_sf(data = Lab_acsTractsPHL.2016.sf %>%
+            filter(AsianNeighborhood == "SOUTH PHILLY") %>%
+            st_union(),
+          color = "white",
+          fill = "transparent")+
+  labs(
+    title = "Percentage of Non U.S. Citizens with Means of Transportation",
+    subtitle = "",
+    caption = "Data: US Census Bureau, ACS 5-year estimates")
+
 
 ![](Lab2_assignment_Myron_files/figure-gfm/ggplot_geom_sf-1.png)<!-- -->
