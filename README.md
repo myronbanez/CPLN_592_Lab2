@@ -2,10 +2,6 @@
 title: "Lab2_assignment"
 author: "Myron Bañez"
 date: "9/13/2021"
-output: github_document
-editor_options: 
-  markdown: 
-    wrap: sentence
 ---
 
 ```{r setup, include=FALSE}
