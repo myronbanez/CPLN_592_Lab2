@@ -1,9 +1,4 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
-Lab2\_assignment
+Lab 2 Assignment
 ================
 Myron Bañez
 9/13/2021
